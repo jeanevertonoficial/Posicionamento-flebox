@@ -1,4 +1,30 @@
 .cabecalhoPrincipal .container {
     display: flex; 
     align-items: center; /*alinhando os items que estão dentro do container princial*/
+    justify-content: space-between; /* espaço entre elementos */
 }
+
+.cabecalhoPrincipal-nav {
+    display: flex;  /*vai colocar os links do menu um do lado do outro*/
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; /* espaço entorno do elemento */
+    width: 70%;
+    margin-right: 5%; 
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+} 
