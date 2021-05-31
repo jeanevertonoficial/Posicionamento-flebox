@@ -1,7 +1,4 @@
-.cabecalhoPrincipal-titulo {
-    display: inline-block; /* posicionamento um elemento do lado do outro */
-}
-
-.cabecalhoPrincipal-nav {
-    display: inline-block; /* posicionamento um elemento do lado do outro */
+.cabecalhoPrincipal .container {
+    display: flex; 
+    align-items: center; /*alinhando os items que estão dentro do container princial*/
 }
